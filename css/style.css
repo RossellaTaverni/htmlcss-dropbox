@@ -4,42 +4,94 @@
     box-sizing: border-box;
 }
 
-/*common*/
+
+/*layout*/
 header{
-    height: 50px;
-    background-color: aquamarine;
+    height: 70px;
+    background-color: white;
     
 }
 
-/*layout*/
 .container-header{
     max-width: 1400px;
     margin: 0 auto;
-    background-color: aqua;
     display: flex;
 }
 
 .col-logo{
-    width: 200px;
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
 }
 
 .col-option-left{
-    width: 700px;
+    width: 750px;
+}
+
+.prima-lista{
+    padding-top: 20px;
+}
+
+.seconda-lista{
+    padding-top: 15px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
 }
 
 .col-logo-right{
     width: 300px;
 }
 
-.container-jumbotron{
-    background-color: blue;
-    padding: 60px 110px;
+.button{
+    background-color: rgb(22, 94, 236);
+    color: white;
+    padding: 5px 10px
+
 }
 
-.content-jumbotron{
+.container-jumbotron{
+    background-color: rgba(180, 208, 230, 255);
+    padding: 80px 150px 0px 150px;
+}
+h1{
+    font-size: 90px;
+}
+
+.p-jumbotron{
+    font-size: 20px;
+    padding-top: 40px;
+    color:  rgb(77, 77, 77);
+}
+
+.button.inline-block{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.arrow{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.img-jumbotron{
+    position: absolute;
     height: 500px;
-    background-color: blueviolet;
-    border: 1px solid black;
+    right: 50px;
+    top: 380px;
+}
+
+hr{
+    color: rgb(128, 128, 128, 0.33);
 }
 
 .container{
@@ -95,4 +147,4 @@ footer{
     width: 220px;
     color: white;
 }
-/*utility*/
+
