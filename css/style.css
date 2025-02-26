@@ -3,3 +3,96 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*common*/
+header{
+    height: 50px;
+    background-color: aquamarine;
+    
+}
+
+/*layout*/
+.container-header{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+}
+
+.col-logo{
+    width: 200px;
+}
+
+.col-option-left{
+    width: 700px;
+}
+
+.col-logo-right{
+    width: 300px;
+}
+
+.container-jumbotron{
+    background-color: blue;
+    padding: 60px 110px;
+}
+
+.content-jumbotron{
+    height: 500px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.container{
+    background-color: white;
+    padding: 60px 0;
+}
+
+.content-bg-red{
+    height: 1500px;
+    width: 1000px;
+    margin: 30px 220px;
+    background-color: rgb(239, 35, 35);
+    border: 1px solid black; 
+}
+
+.content-bg-green{
+    height: 500px;
+    width: 1000px;
+    margin: 30px 220px;
+    background-color: rgb(76, 239, 35);
+    border: 1px solid black; 
+}
+
+.content-bg-orange{
+    height: 1500px;
+    width: 1000px;
+    margin: 30px 220px;
+    background-color: rgb(239, 103, 35);
+    border: 1px solid black; 
+}
+
+.content-bg-blu{
+    height: 500px;
+    width: 1000px;
+    margin: 30px 220px;
+    background-color: rgb(35, 55, 239);
+    border: 1px solid black; 
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    padding: 50px 170px;
+}
+
+.container-footer{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+}
+
+.col-footer{
+    width: 220px;
+    color: white;
+}
+/*utility*/
