@@ -340,11 +340,15 @@ footer{
     background-color: black;
     height: 500px;
     padding: 50px 170px;
+    display: flex;
 }
 
 .container-footer{
-    background-color: gray;
-    height: 400px;
+    margin-top: 20px;
+
+}
+
+.columns-footer{
     display: flex;
 }
 
@@ -353,3 +357,24 @@ footer{
     color: white;
 }
 
+.title-col-footer{
+    padding-bottom: 20px;
+}
+
+.hr-footer{
+    width: 90px;
+    color: white;
+    margin-top: 100px;
+}
+
+.italiano{
+    height: 100px;
+    color: gray;
+    padding-top: 30px;
+    display: flex;
+}
+
+.p-footer{
+    color: grey;
+    padding: 0px 5px;
+}
