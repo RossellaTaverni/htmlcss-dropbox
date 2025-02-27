@@ -21,7 +21,7 @@ header{
 }
 
 .col-logo{
-    padding-top: 20px;
+    padding-top: 25px;
     margin-right: 30px;
     margin-left: 20px;
 }
@@ -299,11 +299,23 @@ li{
 }
 
 .content-bg-orange{
-    height: 1500px;
     width: 1000px;
     margin: 30px 220px;
     background-color: rgb(239, 103, 35);
     border: 1px solid black; 
+}
+
+.title-dropbox-business{
+    font-size: 45px;
+    text-align: center;
+}
+
+.col1{
+    display: inline-block;
+    width: 33%;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 .content-bg-blu{
