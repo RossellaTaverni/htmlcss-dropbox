@@ -300,22 +300,18 @@ li{
 
 .content-bg-orange{
     width: 1000px;
-    margin: 30px 220px;
-    background-color: rgb(239, 103, 35);
-    border: 1px solid black; 
+    margin: 100px 220px;
 }
 
 .title-dropbox-business{
     font-size: 45px;
-    text-align: center;
     margin-bottom: 60px;
 }
 
 .col1{
     display: inline-block;
     width: 33%;
-    background-color: aqua;
-    border: 1px solid black;
+    margin-top: 30px;
 }
 
 .img1{
@@ -331,11 +327,13 @@ li{
 }
 
 .content-bg-blu{
-    height: 500px;
     width: 1000px;
-    margin: 30px 220px;
-    background-color: rgb(35, 55, 239);
-    border: 1px solid black; 
+    margin: 200px 220px 70px 220px;
+}
+
+.last-title{
+    font-size: 25px;
+    padding-bottom: 50px;
 }
 
 footer{
